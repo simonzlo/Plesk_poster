@@ -67,17 +67,24 @@
       height: 632px;
       background: white;
       overflow: hidden;
+      position: relative;
+
     }
     .pl-ran {
-      width: 5000px;
+      width: 5500px;
       height: 632px;
       position: absolute;
+      /* right: -700px; */
       animation: pl2-ran-move 10s linear infinite;
     }
 
+    /* .pl2:hover .pl-ran {
+      animation-play-state: paused;
+    } */
+
     @keyframes pl2-ran-move {
-      0% {right: -5000px;}
-      100% {right: 100%;}
+      0% {right: -4220px;}
+      100% {right: -1015px;}
     }
 
     .pl2-1 , .pl2-2 , .pl2-3 {
@@ -117,76 +124,76 @@
     }
 
     .img_pl4-1 {
-      width: 1172px;
+      width: 2400px;
       height: 696px;
       position: absolute;
       animation: pl4-1-ran-move 5s linear infinite;
+       /* right: -960px; */
     }
 
     @keyframes pl4-1-ran-move {
-      0% {right: -1172px;}
-      100% {right: 100%;}
+      0% {right: -2186.67px;}
+      100% {right: -1010px;}
     }
 
-
     .img_pl4-2 {
-      width: 1172px;
+      width: 2400px;
       height: 696px;
       position: absolute;
       animation: pl4-2-ran-move 5s linear infinite;
     }
 
     @keyframes pl4-2-ran-move {
-      0% {right: -1172px;}
-      100% {right: 100%;}
+      0% {right: -2186.67px;}
+      100% {right: -1010px;}
     }
 
     .img_pl4-3 {
-      width: 1172px;
+      width: 2400px;
       height: 696px;
       position: absolute;
       animation: pl4-3-ran-move 5s linear infinite;
     }
 
     @keyframes pl4-3-ran-move {
-      0% {right: -1172px;}
-      100% {right: 100%;}
+      0% {right: -2186.67px;}
+      100% {right: -1010px;}
     }
 
     .img_pl4-4 {
-      width: 1172px;
+      width: 2400px;
       height: 696px;
       position: absolute;
       animation: pl4-4-ran-move 5s linear infinite;
     }
 
     @keyframes pl4-4-ran-move {
-      0% {right: -1172px;}
-      100% {right: 100%;}
+      0% {right: -2186.67px;}
+      100% {right: -1010px;}
     }
 
     .img_pl4-5 {
-      width: 1172px;
+      width: 2400px;
       height: 696px;
       position: absolute;
       animation: pl4-5-ran-move 5s linear infinite;
     }
 
     @keyframes pl4-5-ran-move {
-      0% {right: -1172px;}
-      100% {right: 100%;}
+      0% {right: -2186.67px;}
+      100% {right: -1010px;}
     }
 
     .img_pl4-6 {
-      width: 1172px;
+      width: 2400px;
       height: 696px;
       position: absolute;
       animation: pl4-6-ran-move 5s linear infinite;
     }
 
     @keyframes pl4-6-ran-move {
-      0% {right: -1172px;}
-      100% {right: 100%;}
+      0% {right: -2186.67px;}
+      100% {right: -1010px;}
     }
 
     .pl5 {
@@ -314,6 +321,9 @@
        <div class="pl2-1"type="images"data="plesk_1.svg"><img src="images/plesk_1.svg"></div>
        <div class="pl2-2"type="images"data="plesk_2.svg"><img src="images/plesk_2.svg"></div>
        <div class="pl2-3"type="images"data="plesk_3.svg"><img src="images/plesk_3.svg"></div>
+       <div class="pl2-1"type="images"data="plesk_1.svg"><img src="images/plesk_1.svg"></div>
+       <div class="pl2-2"type="images"data="plesk_2.svg"><img src="images/plesk_2.svg"></div>
+
      </div>
     </div>
 
@@ -327,41 +337,52 @@
             type="images"
             data="plesk2-6.svg">
            <img src="images/plesk1-6.svg">
-         </div>
-       </div>
-      <div class="pl4-2">
-        <div class="img_pl4-2"
-            type="images"
-            data="plesk2-6.svg">
-           <img src="images/plesk2-6.svg">
-        </div>
-      </div>
-      <div class="pl4-3">
-        <div class="img_pl4-3"
-            type="images"
-            data="plesk3-6.svg">
-           <img src="images/plesk3-6.svg">
-      </div>
-    </div>
-      <div class="pl4-4">
-        <div class="img_pl4-4"
-            type="images"
-            data="plesk2-4.svg">
-           <img src="images/plesk4-6.svg">
+           <img src="images/plesk1-6.svg">
          </div>
       </div>
-      <div class="pl4-5">
-        <div class="img_pl4-5"
-            type="images"
-            data="plesk5-6.svg">
-           <img src="images/plesk5-6.svg">
+
+    <div class="pl4-2">
+      <div class="img_pl4-2"
+          type="images"
+          data="plesk2-6.svg">
+         <img src="images/plesk2-6.svg">
+         <img src="images/plesk2-6.svg">
       </div>
     </div>
-      <div class="pl4-6">
-        <div class="img_pl4-6"
-            type="images"
-            data="plesk6-6.svg">
-           <img src="images/plesk6-6.svg">
+
+    <div class="pl4-3">
+      <div class="img_pl4-3"
+          type="images"
+          data="plesk3-6.svg">
+         <img src="images/plesk3-6.svg">
+         <img src="images/plesk3-6.svg">
+      </div>
+    </div>
+
+    <div class="pl4-4">
+      <div class="img_pl4-4"
+          type="images"
+          data="plesk2-4.svg">
+         <img src="images/plesk4-6.svg">
+         <img src="images/plesk4-6.svg">
+      </div>
+    </div>
+
+    <div class="pl4-5">
+      <div class="img_pl4-5"
+          type="images"
+          data="plesk5-6.svg">
+         <img src="images/plesk5-6.svg">
+         <img src="images/plesk5-6.svg">
+      </div>
+    </div>
+
+    <div class="pl4-6">
+      <div class="img_pl4-6"
+          type="images"
+          data="plesk6-6.svg">
+         <img src="images/plesk6-6.svg">
+         <img src="images/plesk6-6.svg">
       </div>
     </div>
   </div>
