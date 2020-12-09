@@ -75,7 +75,7 @@
       height: 632px;
       position: absolute;
       /* right: -700px; */
-      animation: pl2-ran-move 10s linear infinite;
+      animation: pl2-ran-move 20s linear infinite;
     }
 
     /* .pl2:hover .pl-ran {
@@ -93,6 +93,62 @@
       width: 1064px;
       height: 632px;
     }
+
+    .pl2-1 {
+      background-image: url("images/plesk_group1.svg");
+      animation: pl2-1-group 1s steps(1) infinite;
+      animation-play-state: paused;
+    }
+
+    @keyframes pl2-1-group {
+      0% {background-position: 0 0; }
+      33% {background-position: 0 -632px; }
+      66% {background-position: 0 -1264px; }
+    }
+
+    .pl2-1:hover {
+      animation-play-state: running;
+    }
+
+    .pl2-2 {
+      background-image: url("images/plesk_group2.svg");
+      animation: pl2-2-group 1s steps(1) infinite;
+      animation-play-state: paused;
+    }
+
+    .pl2-2:hover {
+      animation-play-state: running;
+    }
+
+    @keyframes pl2-2-group {
+      0% {background-position: 0 0; }
+      33% {background-position: 0 -632px; }
+      66% {background-position: 0 -1264px; }
+    }
+
+    .pl2-3 {
+      background-image: url("images/plesk_group3.svg");
+      animation: pl2-3-group 1s steps(1) infinite;
+      animation-play-state: paused;
+    }
+
+    .pl2-3:hover {
+      animation-play-state: running;
+    }
+
+    @keyframes pl2-3-group {
+      0% {background-position: 0 0; }
+      33% {background-position: 0 -632px; }
+      66% {background-position: 0 -1264px; }
+    }
+
+
+
+
+
+
+
+
 
 
     .pl3 {
@@ -121,6 +177,10 @@
       width: 213.33px;
       height: 696px;
       overflow: hidden;
+    }
+
+    .pl4-1:hover {
+      background: red;
     }
 
     .img_pl4-1 {
@@ -318,11 +378,11 @@
 
     <div class="pl2">
      <div class="pl-ran">
-       <div class="pl2-1"type="images"data="plesk_1.svg"><img src="images/plesk_1.svg"></div>
-       <div class="pl2-2"type="images"data="plesk_2.svg"><img src="images/plesk_2.svg"></div>
-       <div class="pl2-3"type="images"data="plesk_3.svg"><img src="images/plesk_3.svg"></div>
-       <div class="pl2-1"type="images"data="plesk_1.svg"><img src="images/plesk_1.svg"></div>
-       <div class="pl2-2"type="images"data="plesk_2.svg"><img src="images/plesk_2.svg"></div>
+       <div class="pl2-1"></div>
+       <div class="pl2-2"></div>
+       <div class="pl2-3"></div>
+       <div class="pl2-1"></div>
+       <div class="pl2-2"><img src="images/plesk_2.svg"></div>
 
      </div>
     </div>
