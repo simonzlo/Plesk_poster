@@ -303,18 +303,7 @@
       height: 72px;
     }
 
-
     .pl6 {
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      width: 1280px;
-      height: 584px;
-      background: white;
-      padding: 0px 152px 0px 152px;
-    }
-
-    .pl7 {
       margin: 0 auto;
       width: 1280px;
       height: 352px;
@@ -324,29 +313,21 @@
       border-top: 1px solid black;
     }
 
-    .pl7-1 {
+    .pl6-1 {
       display: contents;
       width: 544px;
       height: 352px;
       background: white;
     }
 
-    .pl7-1-1 {
+    .pl6-1-1 {
       position: relative;
       width: 136px;
       height: 352px;
       padding: 36px 46px 272px 46px;
     }
 
-    .pl7-1-2 {
-      position: relative;
-      width: 136px;
-      height: 352px;
-      border-left: 1px solid black;
-      padding: 36px 46px 272px 46px;
-    }
-
-    .pl7-1-3 {
+    .pl6-1-2 {
       position: relative;
       width: 136px;
       height: 352px;
@@ -354,7 +335,15 @@
       padding: 36px 46px 272px 46px;
     }
 
-    .pl7-1-4 {
+    .pl6-1-3 {
+      position: relative;
+      width: 136px;
+      height: 352px;
+      border-left: 1px solid black;
+      padding: 36px 46px 272px 46px;
+    }
+
+    .pl6-1-4 {
       position: relative;
       width: 136px;
       height: 352px;
@@ -362,27 +351,29 @@
       padding: 52.5px 46px 288.5px 46px;
     }
 
-    .pl7-1-1:hover {
+    .pl6-1-1:hover {
       background: #1400FF;
     }
 
-    .pl7-1-2:hover {
+    .pl6-1-1:hover ~ .pl-7 .pl-7-1 {
+      animation-play-state: running;
+      background: #1400FF;
+    }
+
+
+    .pl6-1-2:hover {
       background: #00FF29;
     }
 
-    .pl7-1-3:hover {
+    .pl6-1-3:hover {
       background: #FF0000;
     }
 
-    .pl7-1-4:hover {
+    .pl6-1-4:hover {
       background: #FFD600;
     }
 
-
-
-
-
-    .pl7-2 {
+    .pl6-2 {
       position: relative;
       width: 736px;
       height: 352px;
@@ -390,6 +381,39 @@
       border-left: 1px solid black;
       padding: 20px 40px 88px 32px;
     }
+
+    .pl7 {
+      margin: 0 auto;
+      display: flex;
+      width: 1280px;
+      height: 584px;
+      background: white;
+      padding: 0px 152px 0px 152px;
+    }
+
+    .pl7-1 {
+      position: relative;
+      width: 976px;
+      height: 584px;
+    }
+
+    .pl7-1 {
+      background-image: url("images/plesk-end_1.svg");
+      animation: pl7-1-group 4s steps(1) infinite;
+      animation-play-state: paused;
+    }
+
+    @keyframes pl7-1-group {
+      0% {background-position: 0 0; }
+      12.5% {background-position: 0 -584px; }
+      25% {background-position: 0 -1168px; }
+      37.5% {background-position: 0 -1752px; }
+      50% {background-position: 0 -2336px; }
+      62.5% {background-position: 0 -2920px; }
+      75% {background-position: 0 -3504px; }
+      87.5% {background-position: 0 -4088px; }
+    }
+
 
     .pl8 {
       margin: 0 auto;
@@ -495,18 +519,10 @@
     </div>
 
     <div class="pl6">
-      <object
-        type="images"
-        data="plesk_end.svg">
-       <img src="images/plesk_end.svg">
-      </object>
-    </div>
 
-    <div class="pl7">
+      <div class="pl6-1">
 
-      <div class="pl7-1">
-
-        <div class="pl7-1-1">
+        <div class="pl6-1-1">
           <object
             type="images"
             data="treugolnik.svg">
@@ -514,7 +530,7 @@
           </object>
         </div>
 
-        <div class="pl7-1-2">
+        <div class="pl6-1-2">
           <object
             type="images"
             data="kvadrat.svg">
@@ -522,7 +538,7 @@
           </object>
         </div>
 
-        <div class="pl7-1-3">
+        <div class="pl6-1-3">
           <object
             type="images"
             data="plus.svg">
@@ -530,7 +546,7 @@
           </object>
         </div>
 
-        <div class="pl7-1-4">
+        <div class="pl6-1-4">
           <object
             type="images"
             data="minus.svg">
@@ -540,9 +556,13 @@
 
       </div>
 
-      <div class="pl7-2"><p class="p2">Мы — организация Плеск и мы ищем новые голоса  <br>и звуки! Любишь кричать в микрофон и стучать <br>по клавишам пианино? А может, дуть что есть мочи  <br>в железную трубу? Или просто нравится бить посуду <br>по ночам? Наша организация поможет тебе  <br>определиться. Мы сделаем так, что запоешь ты — <br>а задрожат все. Мы пальчик — ты струна! Поплыли?
+      <div class="pl6-2"><p class="p2">Мы — организация Плеск и мы ищем новые голоса  <br>и звуки! Любишь кричать в микрофон и стучать <br>по клавишам пианино? А может, дуть что есть мочи  <br>в железную трубу? Или просто нравится бить посуду <br>по ночам? Наша организация поможет тебе  <br>определиться. Мы сделаем так, что запоешь ты — <br>а задрожат все. Мы пальчик — ты струна! Поплыли?
      </p></div>
 
+    </div>
+
+    <div class="pl7">
+      <div class="pl7-1"></div>
     </div>
 
     <div class="pl8"></div>
