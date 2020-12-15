@@ -87,57 +87,63 @@
   }
 
   .pl2-1 {
-    background-image: url("../images/plesk_group1.svg");
-    animation: pl2-1-group 1s steps(1) infinite, color-change infinite;
+    mask-type: alpha;
+    -webkit-mask: url("https://simonzlo.github.io/Plesk_poster/images/plesk_group1.svg");
+    mask: url("https://simonzlo.github.io/Plesk_poster/images/plesk_group1.svg");
+    animation: pl2-1-group 1s steps(1) infinite;
     animation-play-state: paused;
+    background-color: black;
   }
 
   @keyframes pl2-1-group {
-    0% {background-position: 0 0; }
-    33% {background-position: 0 -632px; }
-    66% {background-position: 0 -1264px; }
+    0% {-webkit-mask-position: 0 0; mask-position: 0 0; }
+    33% {-webkit-mask-position: 0 -632px; mask-position: 0 -632px; }
+    66% {-webkit-mask-position: 0 -1264px; mask-position: 0 -1264px;}
   }
 
-  @keyframes color-change {
-    0% {background-color: red; }
-    33% {background-color: red; }
-    66% {background-color: red; }
-  }
+
 
   .pl2-1:hover {
     animation-play-state: running;
+    background-color: #1400FF;
   }
 
   .pl2-2 {
-    background-image: url("../images/plesk_group2.svg");
+    -webkit-mask: url("https://simonzlo.github.io/Plesk_poster/images/plesk_group2.svg");
+    mask: url("https://simonzlo.github.io/Plesk_poster/images/plesk_group2.svg");
     animation: pl2-2-group 1s steps(1) infinite;
     animation-play-state: paused;
+    background-color: black;
   }
 
   .pl2-2:hover {
     animation-play-state: running;
+    background-color: #FF0000;
   }
 
   @keyframes pl2-2-group {
-    0% {background-position: 0 0; }
-    33% {background-position: 0 -632px; }
-    66% {background-position: 0 -1264px; }
+    0% {-webkit-mask-position: 0 0; mask-position: 0 0; }
+    33% {-webkit-mask-position: 0 -632px; mask-position: 0 -632px; }
+    66% {-webkit-mask-position: 0 -1264px; mask-position: 0 -1264px;}
   }
 
   .pl2-3 {
-    background-image: url("../images/plesk_group3.svg");
+    -webkit-mask: url("https://simonzlo.github.io/Plesk_poster/images/plesk_group3.svg");
+    mask: url("https://simonzlo.github.io/Plesk_poster/images/plesk_group3.svg");
     animation: pl2-3-group 1s steps(1) infinite;
     animation-play-state: paused;
+    background-color: black;
   }
 
   .pl2-3:hover {
     animation-play-state: running;
+    background-color: #FFD600;
   }
 
   @keyframes pl2-3-group {
-    0% {background-position: 0 0; }
-    33% {background-position: 0 -632px; }
-    66% {background-position: 0 -1264px; }
+    0% {-webkit-mask-position: 0 0; mask-position: 0 0; }
+    33% {-webkit-mask-position: 0 -632px; mask-position: 0 -632px; }
+    66% {-webkit-mask-position: 0 -1264px; mask-position: 0 -1264px;}
   }
 
   .pl3 {
@@ -296,7 +302,7 @@
   .pl6 {
     margin: 0 auto;
     width: 1280px;
-    height: 350px;
+    height: 0px;
     display: flex;
     justify-content: space-between;
     background: white;
