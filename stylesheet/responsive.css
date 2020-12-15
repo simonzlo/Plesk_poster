@@ -1,0 +1,32 @@
+@media only screen and (min-width: 1680px) {
+  /* MacBook Pro ’15.4 */
+}
+
+@media only screen and (min-width: 1440px) {
+  /* MacBook Pro ’15 */
+}
+
+@media only screen and (min-width: 1366px) {
+  /* 1366x768 MacBook Air ’11.6 */
+}
+
+@media only screen and (min-width: 1280px) {
+  /* MacBook Pro ’13 */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 475px) {
+  /* iPhone SE 5 */
+  body { min-width: 320px; }
+}
