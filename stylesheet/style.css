@@ -9,7 +9,7 @@
   }
 
   h1 {
-    font-family: Proxima Nova;
+    font-family: "Proxima Nova";
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
@@ -18,7 +18,7 @@
   }
 
   .p2 {
-    font-family: 20 "20 Kopeek Book";
+    font-family: "20 Kopeek Book";
     font-size: 28px;
     line-height: 36px;
     letter-spacing: 0.01em;
@@ -87,7 +87,7 @@
   }
 
   .pl2-1 {
-    background-image: url("images/plesk_group1.svg");
+    background-image: url("../images/plesk_group1.svg");
     animation: pl2-1-group 1s steps(1) infinite, color-change infinite;
     animation-play-state: paused;
   }
@@ -109,7 +109,7 @@
   }
 
   .pl2-2 {
-    background-image: url("images/plesk_group2.svg");
+    background-image: url("../images/plesk_group2.svg");
     animation: pl2-2-group 1s steps(1) infinite;
     animation-play-state: paused;
   }
@@ -125,7 +125,7 @@
   }
 
   .pl2-3 {
-    background-image: url("images/plesk_group3.svg");
+    background-image: url("../images/plesk_group3.svg");
     animation: pl2-3-group 1s steps(1) infinite;
     animation-play-state: paused;
   }
