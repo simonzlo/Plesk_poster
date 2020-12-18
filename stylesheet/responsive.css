@@ -28,5 +28,10 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 475px) {
   /* iPhone SE 5 */
-  body { min-width: 320px; }
+  .pr2 {
+    width: 500;
+    height: 600;
+    background: green;
+  }
+
 }
