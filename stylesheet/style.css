@@ -37,17 +37,15 @@
 
   .pl1-1 {
     display: inline-block;
-    position: block;
-    padding: 1px 496px 1px 24px;
+    /* padding: 1px 496px 1px 24px;s */
     width: 640px;
     height: 72px;
   }
 
   .pl1-2 {
     display: inline-block;
-    position: block;
-    padding: 20px 24px 16px 460px;
-    width: 640px;
+    /* padding: 20px 24px 16px 460px; */
+    /* width: 640px; */
     height: 72px;
   }
 
@@ -55,7 +53,7 @@
     margin: 0 auto;
     display:flex;
     align-items: stretch;
-    width: 1280px;
+    /* width: 1280px; */
     height: 632px;
     background: white;
     overflow: hidden;
@@ -150,7 +148,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    /* width: 1280px; */
     height: 280px;
     background: white;
     border-top: 1px solid black;
@@ -160,7 +158,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    /* width: 1280px; */
     height: 696px;
     background: white;
     border-top: 1px solid black;
@@ -169,7 +167,7 @@
   .pl4-1 , .pl4-2 , .pl4-3 , .pl4-4 , .pl4-5 , .pl4-6 {
     display: inline-block;
     position: relative;
-    width: 213.33px;
+    width: 16.66%;
     height: 696px;
     overflow: hidden;
   }
@@ -276,7 +274,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    /* width: 1280px; */
     height: 72px;
     background: white;
     border-top: 1px solid black;
@@ -286,15 +284,15 @@
     display: inline-block;
     position: relative;
     padding: 1px 105px 1px 24px;
-    width: 640px;
+    /* width: 640px; */
     height: 72px;
   }
 
   .pl5-2 {
     display: inline-block;
     position: relative;
-    padding: 20px 24px 16px 383px;
-    width: 640px;
+    /* padding: 20px 24px 16px 383px; */
+    /* width: 640px; */
     height: 72px;
   }
 
@@ -369,7 +367,7 @@
 
   .pl6-2 {
     position: relative;
-    width: 736px;
+    /* width: 736px; */
     height: 352px;
     background: white;
     border-left: 1px solid black;
@@ -381,8 +379,8 @@
     margin: 0 auto;
     display: flex;
     position: relative;
-    width: 1280px;
-    /* height: 584px; */
+    /* width: 1280px; */
+    height: 584px;
     background: white;
     padding: 0px 152px 0px 152px;
   }
@@ -394,7 +392,7 @@
   }
 
   .pl7-1 {
-    /* background-image: url("images/plesk-end_1.svg"); */
+    background-image: url("images/plesk-end_1.svg");
     mask-type: alpha;
     -webkit-mask: url("https://simonzlo.github.io/Plesk_poster/images/plesk-end_1.svg");
     mask: url("https://simonzlo.github.io/Plesk_poster/images/plesk-end_1.svg");
@@ -426,7 +424,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    /* width: 1280px; */
     height: 56px;
     background: black;
   }
@@ -444,7 +442,7 @@
   .pl6-1-1, .pl6-1-2, .pl6-1-3, .pl6-1-4, .pl6-2 {
     position: absolute;
     bottom: 0;
-    width: 10%;
+    /* width: 10%; */
     height: 352px;
     display: block;
     padding: 40px 0;
@@ -466,7 +464,7 @@
   }
   .pl6-2 {
     left: 40%;
-    width: 60%;
+    /* width: 60%; */
   }
 
   .pl6-1-1:hover ~ .pl7-1 {
@@ -499,7 +497,7 @@
   }
 
   .wrapper {
-    width: 100%;
+    /* width: 100%; */
     position: relative;
   }
 
