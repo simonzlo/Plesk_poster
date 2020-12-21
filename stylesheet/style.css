@@ -30,7 +30,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    /* width: 1280px; */
     height: 72px;
     background: white;
   }
@@ -299,7 +299,7 @@
 
   .pl6 {
     margin: 0 auto;
-    width: 1280px;
+    /* width: 1280px; */
     height: 0px;
     display: flex;
     justify-content: space-between;
@@ -382,7 +382,7 @@
     /* width: 1280px; */
     height: 584px;
     background: white;
-    /* padding: 0px 152px 0px 152px;” */
+    padding: 0px 152px 0px 152px;”
   }
 
   .pl7-1 {
