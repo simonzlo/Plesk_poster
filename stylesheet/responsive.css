@@ -29,22 +29,123 @@
 @media only screen and (min-width: 320px) and (max-width: 475px) {
   /* iPhone SE 5 */
 
-body {
-  height: 1881px;
-}
-body::before {
-  content: "";
-  background-image:url("../images/Group_61.png");
-  height: 1881px;
-}
-.content {
-  padding-bottom: 588%;
-}
 
-.pl1 {
-  width: 100%;
-  height: 10%;
+  p {
+     font-family: 20 Kopeek Book;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 32px;
+     line-height: 36px;
+     /* or 112% */
+     letter-spacing: 0.01em;
+  }
 
-}
+  h1 {
+     font-family: Proxima Nova;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 20px;
+     line-height: 28px;
+     /* identical to box height, or 140% */
+     letter-spacing: 0.01em;
+   }
 
-}
+
+  .p2 {
+     font-family: 20 Kopeek Book;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 20px;
+     text-align: right;
+  }
+
+  .pl1 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     /* width: 1280px; */
+     height: 56px;
+   background: white;
+  }
+
+  .pl1-1 {
+    display: inline-block;
+    /* padding: 1px 496px 1px 24px;s */
+    /* width: 640px; */
+    height: 56px;
+    padding: 12px 84px 16px 16px;
+
+  }
+
+  .pl1-2 {
+    display: inline-block;
+    /* padding: 20px 24px 16px 460px; */
+    /* width: 640px; */
+    height: 72px;
+    padding: 14.5px 16px 19px 40px;
+
+  }
+
+  .pl2 {
+    margin: 0 auto;
+    display:flex;
+    align-items: stretch;
+    /* width: 1280px; */
+    height: 368px;
+    background: white;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .pl3 {
+    height: 256px;
+    padding: 11px 0px 24px 16px;
+    }
+
+    .pl4 {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      /* width: 1280px; */
+      height: 368px;
+      background: white;
+    }
+
+    .pl4-1 , .pl4-2 , .pl4-3 , .pl4-4 , .pl4-5 , .pl4-6 {
+      display: inline-block;
+      position: relative;
+      width: 16.66%;
+      height: 368px;
+      overflow: hidden;
+    }
+
+    .pl5 {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      /* width: 1280px; */
+      height: 64px;
+      background: white;
+      border-top: 1px solid black;
+    }
+
+    .pl6 {
+      margin: 0 auto;
+      /* width: 1280px; */
+      height: 0px;
+      display: flex;
+      justify-content: space-between;
+      background: white;
+      border-top: 1px solid black;
+    }
+
+    .pl7 {
+      margin: 0 auto;
+      display: flex;
+      position: relative;
+      /* width: 1280px; */
+      height: 152px;
+      background: white;
+      /* padding: 0px 152px 0px 152px;”  */
+    }
