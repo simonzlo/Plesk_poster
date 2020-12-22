@@ -8,18 +8,149 @@
 
 @media only screen and (min-width: 1366px) {}
   /* 1366x768 MacBook Air ’11.6 */
+  p {
+    font-size: 52px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+  }
+
+  h1 {
+     font-size: 250px;
+     line-height: 30px;
+     letter-spacing: 0.01em;
+   }
+
+
+  .p2 {
+     font-size: 20px;
+     line-height: 24px;
+  }
+
+  .pl1 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 72px;
+     background: white;
+  }
 
 
 @media only screen and (min-width: 1280px) {}
   /* MacBook Pro ’13 */
 
 
-@media only screen and (min-device-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
   /* iPad Landscape */
+  p {
+    font-size: 52px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+  }
+
+  h1 {
+     font-size: 25px;
+     line-height: 30px;
+     letter-spacing: 0.01em;
+   }
+
+
+  .p2 {
+     font-size: 20px;
+     line-height: 24px;
+  }
+
+  .pl1 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 72px;
+     background: white;
+  }
+
+  .pl1-1 {
+     display: inline-block;
+     height: 72px;
+     padding: 12px 84px 16px 16px;
+
+  }
+
+  .pl1-2 {
+     display: inline-block;
+     height: 72px;
+     padding: 14.5px 16px 19px 40px;
+
+  }
+
+  .pl2 {
+     margin: 0 auto;
+     display:flex;
+     align-items: stretch;
+     height: 608px;
+     background: white;
+     overflow: hidden;
+     position: relative;
+  }
+
+  .pl3 {
+     height: 216px;
+     padding: 11px 0px 24px 16px;
+    }
+
+  .pl4 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 608px;
+     background: white;
+    }
+
+   .pl5 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 72px;
+     background: white;
+     border-top: 1px solid black;
+   }
+
+   .pl6 {
+     margin: 0 auto;
+     height: 0px;
+     display: flex;
+     justify-content: space-between;
+     background: white;
+     border-top: 1px solid black;
+   }
+
+   .pl6-1 {
+     display: contents;
+     width: 544px;
+     height: 288px;
+     background: white;
+   }
+
+   .pl7 {
+     margin: 0 auto;
+     display: flex;
+     height: 800px;
+     justify-content: space-between;
+     position: relative;
+     background: white;
+   }
+
+   .pl8 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     /* width: 1280px; */
+     height: 64px;
+     background: black;
+   }
+ }
 
 
 
-@media only screen and (min-device-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
 
   p {
@@ -111,14 +242,14 @@
      border-top: 1px solid black;
    }
 
-   /* .pl6-1 {
+   .pl6-1 {
      display: contents;
      width: 544px;
      height: 288px;
      background: white;
    }
 
-   .pl6-1-1 {
+   /* .pl6-1-1 {
      position: relative;
      width: 12.5%;
      height: 288px;
@@ -151,17 +282,17 @@
      border-left: 1px solid black;
      border-top: 1px solid black;
      padding: 36px 46px 272px 46px;
-   }
+   } */
 
-   .pl6-2 {
+   /* .pl6-2 {
      position: relative;
      width: 50%;
      height: 288px;
      background: white;
      border-left: 1px solid black;
      /* padding: 20px 40px 88px 32px; */
-     border-top: 1px solid black; */
-   }
+     /* border-top: 1px solid black;
+   } */
 
    .pl7 {
      margin: 0 auto;
