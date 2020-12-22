@@ -1,60 +1,73 @@
 @media only screen and (min-width: 1680px) {
   /* MacBook Pro ’15.4 */
-}
+
 
 @media only screen and (min-width: 1440px) {
   /* MacBook Pro ’15 */
-}
+
 
 @media only screen and (min-width: 1366px) {
   /* 1366x768 MacBook Air ’11.6 */
-}
+
 
 @media only screen and (min-width: 1280px) {
   /* MacBook Pro ’13 */
-}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* iPad */
-}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* iPad Landscape */
-}
+
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
-}
-
-@media only screen and (min-width: 320px) and (max-width: 475px) {
-  /* iPhone SE 5 */
-
-
-  p {
-     font-family: 20 Kopeek Book;
-     font-style: normal;
-     font-weight: normal;
-     font-size: 32px;
-     line-height: 36px;
-     /* or 112% */
-     letter-spacing: 0.01em;
-  }
 
   h1 {
      font-family: Proxima Nova;
      font-style: normal;
      font-weight: 900;
-     font-size: 20px;
+     font-size: 32px;
+     line-height: 42px;
+     letter-spacing: 0.02em;
+  }
+
+  p {
+    font-family: 20 Kopeek Book;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+  }
+
+  .p2 {
+    font-family: 20 Kopeek Book;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.01em;
+   }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 475px) {
+  /* iPhone SE 5 */
+
+  p {
+    font-size: 5px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+  }
+
+  h1 {
+     font-size: 5px;
      line-height: 28px;
-     /* identical to box height, or 140% */
      letter-spacing: 0.01em;
    }
 
 
   .p2 {
-     font-family: 20 Kopeek Book;
-     font-style: normal;
-     font-weight: normal;
      font-size: 16px;
      line-height: 20px;
      text-align: right;
@@ -64,88 +77,78 @@
      margin: 0 auto;
      display: flex;
      justify-content: space-between;
-     /* width: 1280px; */
-     height: 56px;
-   background: white;
+     height: 560px;
+     background: white;
   }
 
   .pl1-1 {
-    display: inline-block;
-    /* padding: 1px 496px 1px 24px;s */
-    /* width: 640px; */
-    height: 56px;
-    padding: 12px 84px 16px 16px;
+     display: inline-block;
+     height: 56px;
+     padding: 12px 84px 16px 16px;
 
   }
 
   .pl1-2 {
-    display: inline-block;
-    /* padding: 20px 24px 16px 460px; */
-    /* width: 640px; */
-    height: 72px;
-    padding: 14.5px 16px 19px 40px;
+     display: inline-block;
+     height: 56;
+     padding: 14.5px 16px 19px 40px;
 
   }
 
   .pl2 {
-    margin: 0 auto;
-    display:flex;
-    align-items: stretch;
-    /* width: 1280px; */
-    height: 368px;
-    background: white;
-    overflow: hidden;
-    position: relative;
+     margin: 0 auto;
+     display:flex;
+     align-items: stretch;
+     height: 6000px;
+     background: white;
+     overflow: hidden;
+     position: relative;
   }
 
   .pl3 {
-    height: 256px;
-    padding: 11px 0px 24px 16px;
+     height: 256px;
+     padding: 11px 0px 24px 16px;
     }
 
-    .pl4 {
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      /* width: 1280px; */
-      height: 368px;
-      background: white;
+  .pl4 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 368px;
+     background: white;
     }
 
-    .pl4-1 , .pl4-2 , .pl4-3 , .pl4-4 , .pl4-5 , .pl4-6 {
-      display: inline-block;
-      position: relative;
-      width: 16.66%;
-      height: 368px;
-      overflow: hidden;
+  .pl4-1 , .pl4-2 , .pl4-3 , .pl4-4 , .pl4-5 , .pl4-6 {
+     display: inline-block;
+     position: relative;
+     width: 16.66%;
+     height: 368px;
+     overflow: hidden;
     }
 
-    .pl5 {
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      /* width: 1280px; */
-      height: 64px;
-      background: white;
-      border-top: 1px solid black;
-    }
+   .pl5 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 64px;
+     background: white;
+     border-top: 1px solid black;
+   }
 
-    .pl6 {
-      margin: 0 auto;
-      /* width: 1280px; */
-      height: 0px;
-      display: flex;
-      justify-content: space-between;
-      background: white;
-      border-top: 1px solid black;
-    }
+   .pl6 {
+     margin: 0 auto;
+     height: 0px;
+     display: flex;
+     justify-content: space-between;
+     background: white;
+     border-top: 1px solid black;
+   }
 
-    .pl7 {
-      margin: 0 auto;
-      display: flex;
-      position: relative;
-      /* width: 1280px; */
-      height: 152px;
-      background: white;
-      /* padding: 0px 152px 0px 152px;”  */
-    }
+   .pl7 {
+     margin: 0 auto;
+     display: flex;
+     position: relative;
+     height: 152px;
+     background: white;
+   }
+ }
