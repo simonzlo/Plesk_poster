@@ -111,7 +111,7 @@
      border-top: 1px solid black;
    }
 
-   .pl6-1 {
+   /* .pl6-1 {
      display: contents;
      width: 544px;
      height: 288px;
@@ -159,8 +159,8 @@
      height: 288px;
      background: white;
      border-left: 1px solid black;
-     padding: 20px 40px 88px 32px;
-     border-top: 1px solid black;
+     /* padding: 20px 40px 88px 32px; */
+     border-top: 1px solid black; */
    }
 
    .pl7 {
