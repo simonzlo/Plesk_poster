@@ -1,67 +1,35 @@
-@media only screen and (min-width: 1680px) {
+@media only screen and (min-width: 1680px) {}
   /* MacBook Pro ’15.4 */
 
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {}
   /* MacBook Pro ’15 */
 
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1366px) {}
   /* 1366x768 MacBook Air ’11.6 */
 
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {}
   /* MacBook Pro ’13 */
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
   /* iPad Landscape */
 
 
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
 
-  h1 {
-     font-family: Proxima Nova;
-     font-style: normal;
-     font-weight: 900;
-     font-size: 32px;
-     line-height: 42px;
-     letter-spacing: 0.02em;
-  }
-
   p {
-    font-family: 20 Kopeek Book;
-    font-style: normal;
-    font-weight: normal;
     font-size: 52px;
     line-height: 56px;
     letter-spacing: 0.01em;
   }
 
-  .p2 {
-    font-family: 20 Kopeek Book;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.01em;
-   }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 475px) {
-  /* iPhone SE 5 */
-
-  p {
-    font-size: 5px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
-  }
-
   h1 {
-     font-size: 5px;
+     font-size: 20px;
      line-height: 28px;
      letter-spacing: 0.01em;
    }
@@ -70,14 +38,123 @@
   .p2 {
      font-size: 16px;
      line-height: 20px;
-     text-align: right;
   }
 
   .pl1 {
      margin: 0 auto;
      display: flex;
      justify-content: space-between;
-     height: 560px;
+     height: 72px;
+     background: white;
+  }
+
+  .pl1-1 {
+     display: inline-block;
+     height: 72px;
+     padding: 12px 84px 16px 16px;
+
+  }
+
+  .pl1-2 {
+     display: inline-block;
+     height: 72px;
+     padding: 14.5px 16px 19px 40px;
+
+  }
+
+  .pl2 {
+     margin: 0 auto;
+     display:flex;
+     align-items: stretch;
+     height: 688px;
+     background: white;
+     overflow: hidden;
+     position: relative;
+  }
+
+  .pl3 {
+     height: 264px;
+     padding: 11px 0px 24px 16px;
+    }
+
+  .pl4 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 664px;
+     background: white;
+    }
+
+  /* .pl4-1 , .pl4-2 , .pl4-3 , .pl4-4 , .pl4-5 , .pl4-6 {
+     display: inline-block;
+     position: relative;
+     width: 16.66%;
+     height: 368px;
+     overflow: hidden;
+    } */
+
+   .pl5 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 72px;
+     background: white;
+     border-top: 1px solid black;
+   }
+
+   .pl6 {
+     margin: 0 auto;
+     height: 0px;
+     display: flex;
+     justify-content: space-between;
+     background: white;
+     border-top: 1px solid black;
+   }
+
+   .pl7 {
+     margin: 0 auto;
+     display: flex;
+     position: relative;
+     height: 736px;
+     background: white;
+   }
+
+   .pl8 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     /* width: 1280px; */
+     height: 64px;
+     background: black;
+   }
+ }
+
+@media only screen and (min-width: 320px) and (max-width: 475px) {
+  /* iPhone SE 5 */
+
+  p {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+  }
+
+  h1 {
+     font-size: 20px;
+     line-height: 28px;
+     letter-spacing: 0.01em;
+   }
+
+
+  .p2 {
+     font-size: 16px;
+     line-height: 20px;
+  }
+
+  .pl1 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     height: 56px;
      background: white;
   }
 
@@ -99,7 +176,7 @@
      margin: 0 auto;
      display:flex;
      align-items: stretch;
-     height: 6000px;
+     height: 600px;
      background: white;
      overflow: hidden;
      position: relative;
@@ -148,7 +225,16 @@
      margin: 0 auto;
      display: flex;
      position: relative;
-     height: 152px;
+     height: 736px;
      background: white;
+   }
+
+   .pl8 {
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     /* width: 1280px; */
+     height: 33px;
+     background: black;
    }
  }
