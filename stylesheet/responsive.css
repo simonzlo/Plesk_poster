@@ -782,21 +782,18 @@
      display: flex;
      justify-content: space-between;
      height: 56px;
-     background: white;
+     /* background: white; */
   }
 
   .pl1-1 {
      display: inline-block;
      height: 56px;
-     padding: 12px 84px 16px 16px;
-
+     padding: 11px 85px 17px 16px;
   }
-
   .pl1-2 {
-     display: inline-block;
-     height: 56;
-     padding: 14.5px 16px 19px 40px;
-
+    display: inline-block;
+    height: 56px;
+    padding: 11px 10px 17px 16px;
   }
 
   .pl2 {
