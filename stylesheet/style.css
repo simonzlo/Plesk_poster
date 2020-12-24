@@ -355,7 +355,7 @@
     width: 60%;
     height: 352px;
     background: white;
-    border-left: 1px solid black;
+    border-leftч: 1px solid black;
     padding: 20px 40px 88px 32px;
     border-top: 1px solid black;
   }
@@ -427,7 +427,7 @@
   .pl6-1-1, .pl6-1-2, .pl6-1-3, .pl6-1-4, .pl6-2 {
     position: absolute;
     bottom: 0;
-    /* width: 10%; */
+    width: 10%;
     height: 352px;
     display: block;
     padding: 40px 0;
