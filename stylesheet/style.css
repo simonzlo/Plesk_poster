@@ -365,9 +365,9 @@
     display: flex;
     position: relative;
     /* width: 1280px; */
-    height: 584px;
+    /* height: 584px; */
     background: white;
-    padding: 0px 152px 0px 152px;”
+    /* padding: 0px 152px 0px 152px;” */
   }
 
   .pl7-1 {
@@ -508,3 +508,9 @@
   /* .b {
     fill: #ff0000;
   } */
+
+  .pl1-2 .p2,
+  .pl5-2 .p2 {
+    line-height: 70px;
+    min-height: 70px;
+  }
