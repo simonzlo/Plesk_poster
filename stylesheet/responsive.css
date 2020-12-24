@@ -13,9 +13,8 @@
 
 
   .p2 {
-    font-size: 20px;
-    line-height: 24px;
-    text-align: right;
+     font-size: 2vw;
+     line-height: 2.7vw;
   }
 
 
@@ -91,7 +90,6 @@
     height: 33px;
     background: black;
 }
-}
 
 @media only screen and (min-width: 1440px) {
 
@@ -109,9 +107,8 @@
 
 
   .p2 {
-    font-size: 20px;
-    line-height: 24px;
-    text-align: right;
+     font-size: 2vw;
+     line-height: 2.7vw;
   }
 
   .pl1 {
@@ -231,7 +228,6 @@
     height: 33px;
     background: black;
 
- }
 }
   /* MacBook Pro ’15 */
 
@@ -252,9 +248,8 @@
 
 
   .p2 {
-    font-size: 20px;
-    line-height: 24px;
-
+     font-size: 2vw;
+     line-height: 2.7vw;
   }
 
   .pl1 {
@@ -283,9 +278,8 @@
    }
 
   .p2 {
-    font-size: 20px;
-    line-height: 24px;
-    text-align: right;
+    font-size: 2vw;
+    line-height: 2.7vw;
    }
 
    .pl1 {
@@ -421,7 +415,6 @@
      background: black;
 
  }
-}
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -440,9 +433,8 @@
 
 
   .p2 {
-    font-size: 20px;
-    line-height: 24px;
-    text-align: right;
+    font-size: 2vw;
+    line-height: 2.7vw;
   }
 
   .pl1 {
@@ -592,16 +584,15 @@
   }
 
   h1 {
-     font-size: 25px;
-     line-height: 30px;
+     font-size: 20px;
+     line-height: 28px;
      letter-spacing: 0.01em;
    }
 
 
   .p2 {
-    font-size: 20px;
-    line-height: 24px;
-    text-align: right;
+    font-size: 2vw;
+    line-height: 2.7vw;
   }
 
   .pl1 {
@@ -770,9 +761,8 @@
 
 
   .p2 {
-     font-size: 16px;
-     line-height: 20px;
-     text-align: right;
+     font-size: 2vw;
+     line-height: 2.7vw;
      /* font-size: 16px;
      line-height: 20px; */
   }
