@@ -19,8 +19,8 @@
 
   .p2 {
     font-family: "20 Kopeek Book";
-    font-size: 2vw;
-    line-height: 2.7vw;
+    font-size: 20px;
+    line-height: 24px;
     letter-spacing: 0.01em;
   }
 
@@ -358,6 +358,8 @@
     border-leftч: 1px solid black;
     padding: 20px 40px 88px 32px;
     border-top: 1px solid black;
+    border-left: 1px solid black;
+
   }
 
   .pl7 {
@@ -472,13 +474,22 @@
   60% {background-color: #FF0000;}
   80% {background-color: #FFD600;}
   }
-  @keyframes scales-1 {
+  /* @keyframes scales-1 {
     0% {transform: scale(1);}
     100% {transform: scale(2);}
   }
   @keyframes scales-2 {
     0% {transform: scale(1);}
     100% {transform: scale(.2);}
+  } */
+
+  @keyframes scales-1 {
+    0% {transform: scale(1); -webkit-transform:scale(1);}
+    100% {transform: scale(2); -webkit-transform:scale(2);}
+  }
+  @keyframes scales-2 {
+    0% {transform: scale(1); -webkit-transform:scale(1);}
+    100% {transform: scale(.2); -webkit-transform:scale(.2);}
   }
 
   .wrapper {
